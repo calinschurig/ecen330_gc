@@ -1,0 +1,8 @@
+{
+    "cmake.sourceDirectory": "/fsj/cschurig/Documents/ecen330/lab01",
+    "files.autoSaveWhenNoErrors": true,
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+        "pin.h": "c"
+    }
+}
