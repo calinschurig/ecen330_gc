@@ -3,6 +3,10 @@
     "files.autoSaveWhenNoErrors": true,
     "files.autoSave": "afterDelay",
     "files.associations": {
-        "pin.h": "c"
+        "pin.h": "c",
+        "stdint.h": "c",
+        "stdio.h": "c",
+        "math.h": "c",
+        "cmath": "c"
     }
 }

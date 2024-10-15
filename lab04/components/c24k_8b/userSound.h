@@ -1,8 +1,8 @@
 
 #include <stdint.h>
 
-#define USERSOUND_BITS_PER_SAMPLE 8
-#define USERSOUND_SAMPLE_RATE 24000
-#define USERSOUND_SAMPLES 7375
+#define SHORT_BITS_PER_SAMPLE 8
+#define SHORT_SAMPLE_RATE 24000
+#define SHORT_SAMPLES 36224
 
-extern const uint8_t userSound[USERSOUND_SAMPLES];
+extern const uint8_t userSound[SHORT_SAMPLES];

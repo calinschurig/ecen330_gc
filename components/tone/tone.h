@@ -10,6 +10,7 @@
 // of sound functions.
 
 #define LOWEST_FREQ 20U // Hz
+#define TONE_FREQ_ERROR 2
 
 #define tone_stop() sound_stop()
 #define tone_busy() sound_busy()
@@ -18,6 +19,7 @@
 
 // Tone waveforms
 typedef enum {SINE_T, SQUARE_T, TRIANGLE_T, SAW_T, LAST_T} tone_t;
+#define TONE_ENUM_MAX_VALUE 4
 
 // Initialize the tone driver. Must be called before using.
 // May be called again to change sample rate.
