@@ -48,7 +48,7 @@
 #define FUN_DRV 10
 #define MCU_SEL 12
 
-static const char *TAG = "debug";
+// static const char *TAG = "debug";
 
 
 
