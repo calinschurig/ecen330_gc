@@ -7,6 +7,9 @@
         "stdint.h": "c",
         "stdio.h": "c",
         "math.h": "c",
-        "cmath": "c"
+        "cmath": "c",
+        "stdlib.h": "c",
+        "stdbool.h": "c",
+        "pcg_variants.h": "c"
     }
 }
